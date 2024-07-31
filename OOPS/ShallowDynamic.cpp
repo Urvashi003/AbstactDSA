@@ -8,8 +8,8 @@ class Student{
 
   Student(string name, double cgpa){
     this->name = name;
-    cgpaptr = new double;
-    *cgpaptr = cgpa;
+    cgpaptr = new double; //address pt
+    *cgpaptr = cgpa; //deref
   }
 
   void getInfo(){
